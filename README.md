@@ -1,4 +1,4 @@
-[![LaravelTest](https://github.com/enginedilema/CuentaTest/actions/workflows/laravel.yml/badge.svg)](https://github.com/enginedilema/CuentaTest/actions/workflows/laravel.yml)
+[![LaravelTest](https://github.com/EduardAltes/github-actions/actions/workflows/laravel.yml/badge.svg)](https://github.com/EduardAltes/github-actions/actions/workflows/laravel.yml)
 
 Crea un repositori a GitHub amb el projecte de TDD de Cuenta que hem realitzat anteriorment.
 
