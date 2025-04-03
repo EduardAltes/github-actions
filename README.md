@@ -1,21 +1,33 @@
+# Laravel Test - Integració de GitHub Actions
+
 [![LaravelTest](https://github.com/EduardAltes/github-actions/actions/workflows/laravel.yml/badge.svg)](https://github.com/EduardAltes/github-actions/actions/workflows/laravel.yml)
 
-Crea un repositori a GitHub amb el projecte de TDD de Cuenta que hem realitzat anteriorment.
+## Descripció
 
-- **Crea un Repositori a GitHub**: Inicialitzeu un nou repositori a GitHub per al projecte de la Cuenta que vam desenvolupar anteriorment utilitzant TDD. Assegureu-vos que el repositori sigui públic per a que tots puguem veure i compartir els nostres progressos.
-- **Puja el Projecte a GitHub**: Una vegada creat el repositori, puja el codi font del projecte. Això inclou tots els fitxers necessaris per a que el projecte es pugui executar, així com els jocs de proves unitàries que vam escriure seguint la metodologia TDD.
-- **Configura GitHub Actions**: L'objectiu aquí és automatitzar l'execució dels tests cada vegada que feu un push al repositori. Per a això, hauríeu de crear un *GitHub Action*. GitHub ofereix plantilles per facilitar aquest procés. Busqueu la plantilla que millor s'adapte al llenguatge i entorn de desenvolupament que estem utilitzant (en aquest cas, Laravel).
+Aquest repositori té com a objectiu automatitzar l'execució de proves unitàries utilitzant GitHub Actions per al projecte de TDD "Cuenta" desenvolupat prèviament. El procés inclou la configuració d'un entorn de treball adequat i l'execució de les proves per garantir que el codi funciona correctament en tot moment.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3bad7570-01a5-40de-bc25-c3c400400236/48e6b4ac-01ec-4e39-875f-bdab6fc78d6c/355eb0bd-5678-424f-9c9a-1665570a9c3c.png)
+## Passos per a la configuració
 
-- **Executa el Workflow**: Una vegada hàgiu configurat el vostre GitHub Action, feu un push al repositori per desencadenar l'execució del workflow. Això hauria d'executar automàticament els tests unitaris que vau escriure, demostrant així la funcionalitat del vostre codi.
-- **Modifica el Workflow per Laravel**: Finalment, assegureu-vos que el workflow estigui actualitzat segons els requisits actuals de Laravel. Això pot incloure l'actualització de la versió de PHP o qualsevol altra dependència específica que Laravel requereixi per funcionar correctament
+1. **Crea un Repositori a GitHub**  
+   Inicialitza un nou repositori a GitHub per al projecte.
 
-**Entrega:**
+2. **Puja el Projecte a GitHub**  
+   Un cop creat el repositori, puja tot el codi font del projecte, incloent-hi els fitxers necessaris per a l'execució i les proves unitàries escrites seguint la metodologia TDD.
 
-- Modifica el **README.md** del repositori per explicar el projecte
-- Enllaç al repositori de GitHub
+3. **Configura GitHub Actions**  
+   Configura un *GitHub Action* per automatitzar l'execució de les proves unitàries amb cada *push* que facis al repositori. Utilitza les plantilles de GitHub per configurar l'acció per a Laravel.
 
+4. **Executa el Workflow**  
+   Un cop configurat, fes un *push* al repositori per activar l'execució del workflow. Això farà que es duguin a terme les proves automàticament, validant la funcionalitat del teu codi.
+
+5. **Modifica el Workflow per Laravel**  
+   Actualitza el workflow per complir els requisits actuals de Laravel. Això pot incloure la versió de PHP o qualsevol altra dependència necessària per al correcte funcionament de Laravel.
+
+## Instruccions Addicionals
+
+- **Actualització de dependències**: Assegura't que les dependències, com la versió de PHP i altres biblioteques necessàries, estiguin actualitzades i configurades correctament dins del workflow de GitHub Actions.
+  
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). 
+El framework Laravel és un programari de codi obert llicenciat sota la [llicència MIT](https://opensource.org/licenses/MIT).
+
